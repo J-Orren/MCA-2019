@@ -6,8 +6,30 @@
         <fileDesc>
             <titleStmt>
                 <title>The Last Of Us Theme</title>
+                <composer>Gustavo Santaolalla</composer>
+                <date>2013</date>
+                <arranger>Joseph Orren</arranger>
             </titleStmt>
-            <pubStmt></pubStmt>
+            <editionStmt>
+                <edition>First draft,
+                    <date>2019-09-30</date>
+                    <respStmt>
+                        <resp>Revised by</resp>
+                        <name>Joseph Orren</name>
+                    </respStmt>
+                </edition>
+            </editionStmt>
+            <seriesStmt>
+                <title>Video Game Score Composition Collection</title>
+                <editor>Joseph Orren</editor>
+                <identifier>MCA-2019</identifier>
+                <contents>
+                    <p>The Last of Us - The Last of Us, Gustavo Santaolalla</p>
+                </contents>
+            </seriesStmt>
+            <notesStmt>
+                <annot>Game Genre = Survival Horror Action Adventure</annot>
+            </notesStmt>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001363589888">
             <appInfo xml:id="appinfo-0000001406194341">
