@@ -23,6 +23,12 @@ mei-filedesc > mei-titlestmt> mei-composer:: before {
   display: block;
 }
 
+mei-filedesc > mei-titlestmt> mei-composer {
+  color: #83838a;
+  white-space: pre;
+  display: block;
+}
+
 mei-filedesc > mei-titlestmt> mei-date:: before {
   content:'\a' "Year of Composition: ";
   font-weight: bold;
