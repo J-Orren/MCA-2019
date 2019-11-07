@@ -1,4 +1,3 @@
-
 #title12345 {
   font-size: 24pt;
 }
@@ -10,7 +9,7 @@ mei-title[type="subordinate"] {
 }
 
 mei-filedesc > mei-titlestmt > mei-title {
-  color: #59bb66;
+  color: #595b66;
   display: block;
 }
 
