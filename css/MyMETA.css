@@ -14,9 +14,9 @@ mei-filedesc > mei-titlestmt > mei-title {
 }
 
 
-mei-filedesc > mei-titlestmt> mei-composer[role="composer"]::before {
+mei-filedesc > mei-titlestmt> mei-composer {
   font-weight: bold;
-  background-color: blue;
+  background-color: #11cc66;
   color: #59bbc6
   content: '\a'"Composer: ";
   white-space: pre;
