@@ -26,10 +26,11 @@ mei-filedesc > mei-titlestmt> mei-date: before {
   display: block;
 }
 
-mei-filedesc > mei-titlestmt> mei-arranger:before {
+mei-filedesc > mei-titlestmt> mei-arranger: before {
   font-weight: bold;
   content: '\a'"Arranged by: ";
   white-space: pre;
+  display: block;
 }
 
 #pers12345 {
@@ -37,16 +38,20 @@ mei-filedesc > mei-titlestmt> mei-arranger:before {
 }
 
 
-mei-filedesc > mei-editionstmt> mei-edition[role="edition"]::before {
+mei-filedesc > mei-editionstmt> mei-edition:before {
+  color: #a31f4b;
   font-weight: bold;
   content: '\a'"Draft: ";
   white-space: pre;
+  display: block;
 }
 
-mei-filedesc > mei-editionstmt> mei-date[role="date"]::before {
+mei-filedesc > mei-editionstmt> mei-date:before {
+  color: #a31f4b;
   font-weight: bold;
   content: '\a'"Draft Date: ";
   white-space: pre;
+  display: block;
 }
 
 
