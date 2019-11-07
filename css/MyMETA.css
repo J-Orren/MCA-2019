@@ -26,7 +26,7 @@ mei-filedesc > mei-titlestmt> mei-composer:: before {
 }
 
 mei-filedesc > mei-titlestmt> mei-composer {
-  color: #83838a;
+  color: #4f4f54;
   white-space: pre;
   display: block;
 }
@@ -40,7 +40,7 @@ mei-filedesc > mei-titlestmt> mei-date:: before {
 }
 
 mei-filedesc > mei-titlestmt> mei-date {
-  color: #83838a;
+  color: #4f4f54;
   white-space: pre;
   display: block;
 }
@@ -54,7 +54,7 @@ mei-filedesc > mei-titlestmt> mei-arranger:: before {
 }
 
 mei-filedesc > mei-titlestmt> mei-arranger {
-  color: #83838a;
+  color: #4f4f54;
   white-space: pre;
   display: block;
 }
@@ -67,7 +67,6 @@ mei-filedesc > mei-titlestmt> mei-arranger {
   margin-top: 2em;
 }
 
-
 mei-filedesc > mei-editionstmt> mei-edition:before {
   color: #a31f4b;
   font-weight: bold;
@@ -77,21 +76,34 @@ mei-filedesc > mei-editionstmt> mei-edition:before {
 }
 
 mei-filedesc > mei-editionstmt> mei-edition {
-  color: #a31f4b;
+  color: #4f4f54;
   white-space: pre;
   display: block;
 }
 
 mei-filedesc > mei-editionstmt> mei-date:before {
-  color: #a31f4b;
+  color: #4f4f54;
   font-weight: bold;
   content: '\a'"Draft Date: ";
   white-space: pre;
   display: block;
 }
 
+/* END OF EDITION STATEMENT */
 
+/* START OF SERIES STATEMENT */
 
+#pers12345 {
+  margin-top: 2em;
+}
+
+mei-filedesc > mei-seriesstmt> mei-title:before {
+  color: #a31f4b;
+  font-weight: bold;
+  content: '\a'"Draft: ";
+  white-space: pre;
+  display: block;
+}
 mei-seriesstmt {
   display: none;
 }
