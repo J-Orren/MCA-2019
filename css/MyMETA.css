@@ -13,23 +13,23 @@ mei-filedesc > mei-titlestmt > mei-title {
 }
 
 
-mei-filedesc > mei-titlestmt> mei-composer: before {
+mei-filedesc > mei-titlestmt> mei-composer:: before {
   font-weight: bold;
   color: #001482
-  content:'br'"Composer: ";
+  content:"Composer: ";
   display: block;
 }
 
-mei-filedesc > mei-titlestmt> mei-date: before {
+mei-filedesc > mei-titlestmt> mei-date:: before {
   font-weight: bold;
   color: #001482
   content: '\a'"Year of Composition: ";
   display: block;
 }
 
-mei-filedesc > mei-titlestmt> mei-arranger: before {
+mei-filedesc > mei-titlestmt> mei-arranger:: before {
   font-weight: bold;
-  content: '\a'"Arranged by: ";
+  content: "Arranged by: ";
   white-space: pre;
   display: block;
 }
