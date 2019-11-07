@@ -14,21 +14,21 @@ mei-filedesc > mei-titlestmt > mei-title {
 }
 
 
-mei-filedesc > mei-titlestmt> mei-composer {
+mei-filedesc > mei-titlestmt> mei-composer: before {
   font-weight: bold;
   color: #001482
-  content:\a"Composer: ";
+  content:'br'"Composer: ";
   display: block;
 }
 
-mei-filedesc > mei-titlestmt> mei-date {
+mei-filedesc > mei-titlestmt> mei-date: before {
   font-weight: bold;
   color: #001482
   content: '\a'"Year of Composition: ";
   display: block;
 }
 
-mei-filedesc > mei-titlestmt> mei-arranger[role="arranger"]::before {
+mei-filedesc > mei-titlestmt> mei-arranger:before {
   font-weight: bold;
   content: '\a'"Arranged by: ";
   white-space: pre;
