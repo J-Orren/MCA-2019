@@ -9,23 +9,23 @@ mei-title[type="subordinate"] {
 }
 
 mei-filedesc > mei-titlestmt > mei-title {
-  color: #595b66;
+  color: #000000;
   display: block;
 }
 
 
 mei-filedesc > mei-titlestmt> mei-composer {
   font-weight: bold;
-  background-color: #11cc66;
-  color: #59bbc6
-  content: '\a'"Composer: ";
-  white-space: pre;
+  color: #001482
+  content:\a"Composer: ";
+  display: block;
 }
 
-mei-filedesc > mei-titlestmt> mei-date[role="date"]::before {
+mei-filedesc > mei-titlestmt> mei-date {
   font-weight: bold;
+  color: #001482
   content: '\a'"Year of Composition: ";
-  white-space: pre;
+  display: block;
 }
 
 mei-filedesc > mei-titlestmt> mei-arranger[role="arranger"]::before {
