@@ -2,6 +2,8 @@
   font-size: 24pt;
 }
 
+/* START OF TITLE STATEMENT */
+
 mei-filedesc > mei-titlestmt > mei-title {
   content:'\a';
   font-size: 25pt;
@@ -37,12 +39,29 @@ mei-filedesc > mei-titlestmt> mei-date:: before {
   display: block;
 }
 
-mei-filedesc > mei-titlestmt> mei-arranger:: before {
-  content:'\a' "Arranged by: ";
-  font-weight: bold;
+mei-filedesc > mei-titlestmt> mei-date {
+  color: #83838a;
   white-space: pre;
   display: block;
 }
+
+mei-filedesc > mei-titlestmt> mei-arranger:: before {
+  content:'\a' "Arranged by: ";
+  font-weight: bold;
+  color: #001482;
+  white-space: pre;
+  display: block;
+}
+
+mei-filedesc > mei-titlestmt> mei-arranger {
+  color: #83838a;
+  white-space: pre;
+  display: block;
+}
+
+/* END OF TITLE STATEMENT */
+
+/* START OF EDITION STATEMENT */
 
 #pers12345 {
   margin-top: 2em;
@@ -53,6 +72,12 @@ mei-filedesc > mei-editionstmt> mei-edition:before {
   color: #a31f4b;
   font-weight: bold;
   content: '\a'"Draft: ";
+  white-space: pre;
+  display: block;
+}
+
+mei-filedesc > mei-editionstmt> mei-edition {
+  color: #a31f4b;
   white-space: pre;
   display: block;
 }
