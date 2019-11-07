@@ -1816,7 +1816,7 @@ mei-title[type="subordinate"] {
 }
 
 mei-filedesc > mei-titlestmt > mei-title {
-  color: #595b66;
+  color: #59bb66;
   display: block;
 }
 
@@ -1825,15 +1825,15 @@ mei-filedesc > mei-titlestmt > mei-respstmt {
   margin-top: 1em;
 }
 
-mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
+mei-filedesc > mei-titlestmt> mei-composer[role="composer"]::before {
   font-weight: bold;
   content: '\a'"Composer: ";
   white-space: pre;
 }
 
-mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::before {
+mei-filedesc > mei-titlestmt> mei-respstmt > mei-arranger[role="arranger"]::before {
   font-weight: bold;
-  content: '\a'"Encoded by: ";
+  content: '\a'"Arranged by: ";
   white-space: pre;
 }
 
