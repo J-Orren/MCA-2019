@@ -1827,6 +1827,7 @@ mei-filedesc > mei-titlestmt > mei-respstmt {
 
 mei-filedesc > mei-titlestmt> mei-composer[role="composer"]::before {
   font-weight: bold;
+  color: #59bbc6
   content: '\a'"Composer: ";
   white-space: pre;
 }
