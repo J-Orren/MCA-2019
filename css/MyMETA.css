@@ -14,22 +14,24 @@ mei-filedesc > mei-titlestmt > mei-title {
 
 
 mei-filedesc > mei-titlestmt> mei-composer:: before {
+  content:'\a' "Composer: ";
   font-weight: bold;
-  color: #001482
-  content:"Composer: ";
+  color: #001482;
+  white-space: pre;
   display: block;
 }
 
 mei-filedesc > mei-titlestmt> mei-date:: before {
+  content:'\a' "Year of Composition: ";
   font-weight: bold;
-  color: #001482
-  content: '\a'"Year of Composition: ";
+  color: #001482;
+  white-space: pre;
   display: block;
 }
 
 mei-filedesc > mei-titlestmt> mei-arranger:: before {
+  content:'\a' "Arranged by: ";
   font-weight: bold;
-  content: "Arranged by: ";
   white-space: pre;
   display: block;
 }
