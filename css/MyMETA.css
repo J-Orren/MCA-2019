@@ -1831,7 +1831,13 @@ mei-filedesc > mei-titlestmt> mei-composer[role="composer"]::before {
   white-space: pre;
 }
 
-mei-filedesc > mei-titlestmt> mei-respstmt > mei-arranger[role="arranger"]::before {
+mei-filedesc > mei-titlestmt> mei-date[role="date"]::before {
+  font-weight: bold;
+  content: '\a'"Year of Composition: ";
+  white-space: pre;
+}
+
+mei-filedesc > mei-titlestmt> mei-arranger[role="arranger"]::before {
   font-weight: bold;
   content: '\a'"Arranged by: ";
   white-space: pre;
@@ -1841,34 +1847,20 @@ mei-filedesc > mei-titlestmt> mei-respstmt > mei-arranger[role="arranger"]::befo
   margin-top: 2em;
 }
 
-mei-filedesc > mei-pubstmt > mei-respstmt {
-  display: none;
-}
 
-mei-pubstmt > mei-address {
-  display: none;
-}
-
-mei-filedesc > mei-pubstmt > mei-date::before {
+mei-filedesc > mei-editionstmt> mei-edition[role="edition"]::before {
   font-weight: bold;
-  content: "Date encoded: "
-}
-
-mei-filedesc > mei-pubstmt > mei-date::after {
-  content: '\a \a';
+  content: '\a'"Draft: ";
   white-space: pre;
 }
 
-mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict {
-  font-style: italic;
-  display: block;
-  margin-top: 0.5em;
-}
-
-mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict::after {
-  content: '\a \a';
+mei-filedesc > mei-editionstmt> mei-date[role="date"]::before {
+  font-weight: bold;
+  content: '\a'"Draft Date: ";
   white-space: pre;
 }
+
+
 
 mei-seriesstmt {
   display: none;
