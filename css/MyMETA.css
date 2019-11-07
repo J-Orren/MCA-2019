@@ -13,10 +13,6 @@ mei-filedesc > mei-titlestmt > mei-title {
   display: block;
 }
 
-mei-filedesc > mei-titlestmt > mei-respstmt {
-  display: block;
-  margin-top: 1em;
-}
 
 mei-filedesc > mei-titlestmt> mei-composer[role="composer"]::before {
   font-weight: bold;
