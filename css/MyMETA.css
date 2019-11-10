@@ -17,6 +17,20 @@ mei-filedesc > mei-titlestmt > mei-title {
 }
 
 
+mei-filedesc > mei-titlestmt> mei-author:before {
+  content:'\a'"Game: ";
+  font-weight: bold;
+  color: #001482;
+  white-space: pre;
+  display: block;
+}
+
+mei-filedesc > mei-titlestmt> mei-author {
+  color: #4f4f54;
+  white-space: pre;
+  display: block;
+}
+
 mei-filedesc > mei-titlestmt> mei-composer:before {
   content:'\a'"Composer: ";
   font-weight: bold;
@@ -116,20 +130,6 @@ mei-filedesc > mei-editionstmt> mei-respstmt > mei-name {
 
 #pers12345 {
   margin-top: 2em;
-}
-
-mei-filedesc > mei-notesstmt > mei-annot:before {
-  color: #1c9c1e;
-  font-weight: bold;
-  content: '\a'"Game: ";
-  white-space: pre;
-  display: block;
-}
-
-mei-filedesc > mei-notesstmt > mei-annot {
-  color: #4f4f54;
-  white-space: pre;
-  display: block;
 }
 
 mei-filedesc > mei-notesstmt > mei-annot:before {
