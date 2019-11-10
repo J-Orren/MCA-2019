@@ -68,7 +68,7 @@ mei-filedesc > mei-titlestmt> mei-arranger {
 }
 
 mei-filedesc > mei-editionstmt> mei-edition:before {
-  color: #001482;
+  color: #c42b2b;
   font-weight: bold;
   content: '\a'"Draft: ";
   white-space: pre;
@@ -82,7 +82,7 @@ mei-filedesc > mei-editionstmt> mei-edition {
 }
 
 mei-filedesc > mei-editionstmt> mei-date:before {
-  color: #4f4f54;
+  color: #c42b2b;
   font-weight: bold;
   content: '\a'"Draft Date: ";
   white-space: pre;
@@ -111,99 +111,50 @@ mei-filedesc > mei-editionstmt> mei-edition > mei-respstmt > mei-name {
   margin-top: 2em;
 }
 
-mei-filedesc > mei-seriesstmt> mei-title:before {
-  color: #a31f4b;
+mei-filedesc > mei-seriesstmt> mei-title {
+  color: #636363;
   font-weight: bold;
-  content: '\a'"Draft: ";
+  content: '\a';
   white-space: pre;
   display: block;
 }
-mei-seriesstmt {
-  display: none;
-}
 
-mei-filedesc > mei-sourcedesc > mei-source > mei-identifier {
-  display: none;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-identifier {
-  display: none;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt::before {
+mei-filedesc > mei-seriesstmt> mei-editor {
+  color: #636363;
   font-weight: bold;
-  content: "Source: ";
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt {
+  content: '\a';
+  white-space: pre;
   display: block;
 }
 
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-title[type="uniform"]::before {
-  content: "(";
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-title[type="uniform"] {
-  font-style: italic;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-title[type="uniform"]::after {
-  content: ")";
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-respstmt > mei-persname[role="composer"] {
-  display: none;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-respstmt > mei-persname[role="dedicatee"]::before {
+mei-filedesc > mei-seriesstmt> mei-identifier {
+  color: #636363;
   font-weight: bold;
-  content: '\a'"Dedicated to: ";
+  content: '\a';
   white-space: pre;
+  display: block;
 }
 
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-respstmt > mei-persname[role="editor"]::before {
-  font-weight: bold;
-  content: '\a'"Edited by: ";
+mei-filedesc > mei-seriesstmt> mei-contents > mei-p {
+  color: #636363;
+  content: '\a';
   white-space: pre;
+  display: block;
 }
 
-mei-filedesc > mei-sourcedesc > mei-source > mei-physdesc {
-  display: none;
-}
+/* END OF SERIES STATEMENT */
 
-mei-filedesc > mei-sourcedesc > mei-source > mei-pubstmt > mei-respstmt > mei-corpname::before {
-  font-weight: bold;
-  content: "Published by: ";
+/* START OF NOTES STATEMENT */
+
+mei-filedesc > mei-notesstmt> mei-annot {
+  color: #636363;
+  content: '\a';
   white-space: pre;
+  display: block;
 }
 
-mei-pubplace::before {
-  font-weight: bold;
-  content: '\a'"Publisher location: ";
-  white-space: pre;
-}
+/* END OF NOTES STATEMENT */
 
-/*mei-filedesc > mei-sourcedesc > mei-source > mei-pubstmt::after {
-  content: '\a'
-  white-space: pre;
-} */
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-pubstmt::after {
-  content: '\a''\a';
-  white-space: pre;
-}
-
-mei-encodingdesc {
-  display: none;
-}
-
-mei-workdesc {
-  display: none;
-}
-
-mei-revisiondesc {
-  display: none;
-}
 
 /* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
 html > body {
@@ -218,6 +169,6 @@ html {
   padding: 2.5em;
   font-family: "Lucida Grande", "Cardo", "Arial Unicode MS","Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", "Palatino Linotype", "Titus Cyberbit Basic", "Vusillus Old Face", "Alphabetum", "Galatia SIL", "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", "Verdana", "Tahoma";
   font-size: 12pt;
-  background-color: white;
+  background-color: #a3bdff;
   color: #292929;
 }
