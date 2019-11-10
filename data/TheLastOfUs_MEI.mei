@@ -11,13 +11,12 @@
                 <arranger>Joseph Orren</arranger>
             </titleStmt>
             <editionStmt>
-                <edition>First draft,
-                    <date>2019-09-30</date>
-                    <respStmt>
-                        <resp>Revised by</resp>
-                        <name>Joseph Orren</name>
-                    </respStmt>
-                </edition>
+                <edition>First draft</edition>
+                <date>2019-09-30</date>
+                <respStmt>
+                    <resp>Revised by</resp>
+                    <name>Joseph Orren</name>
+                </respStmt> 
             </editionStmt>
             <seriesStmt>
                 <title>Video Game Score Composition Collection</title>
