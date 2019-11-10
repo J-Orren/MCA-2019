@@ -6,6 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>The Last Of Us Theme</title>
+                <author>The Last Of Us</author>
                 <composer>Gustavo Santaolalla</composer>
                 <date>2013</date>
                 <arranger>Joseph Orren</arranger>
@@ -18,7 +19,6 @@
                 </respStmt> 
             </editionStmt>
             <notesStmt>
-                <annot>The Last Of Us</annot>
                 <annot>Survival Horror Action Adventure</annot>
             </notesStmt>
             <seriesStmt>
