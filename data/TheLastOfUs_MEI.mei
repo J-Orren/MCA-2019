@@ -17,6 +17,9 @@
                     <name>Joseph Orren</name>
                 </respStmt> 
             </editionStmt>
+            <notesStmt>
+                <annot>Survival Horror Action Adventure</annot>
+            </notesStmt>
             <seriesStmt>
                 <title>Video Game Score Composition Collection</title>
                 <editor>Joseph Orren</editor>
@@ -25,9 +28,6 @@
                     <p>The Last of Us - The Last of Us, Gustavo Santaolalla</p>
                 </contents>
             </seriesStmt>
-            <notesStmt>
-                <annot>Game Genre = Survival Horror Action Adventure</annot>
-            </notesStmt>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001363589888">
             <appInfo xml:id="appinfo-0000001406194341">
