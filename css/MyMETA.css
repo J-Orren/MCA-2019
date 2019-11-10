@@ -95,13 +95,18 @@ mei-filedesc > mei-editionstmt> mei-date {
   display: block;
 }
 
-mei-filedesc > mei-editionstmt> mei-respstmt > mei-resp {
+mei-filedesc > mei-editionstmt> mei-respstmt > mei-name:before {
   color: #c42b2b;
   font-weight: bold;
+  content: '\a'"Revised by: ";
+  white-space: pre;
+  display: block;
 }
 
 mei-filedesc > mei-editionstmt> mei-respstmt > mei-name {
   color: #4f4f54;
+  white-space: pre;
+  display: block;
 }
 
 
