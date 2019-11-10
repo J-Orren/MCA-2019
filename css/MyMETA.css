@@ -138,10 +138,7 @@ mei-filedesc > mei-seriesstmt> mei-identifier {
 }
 
 mei-filedesc > mei-seriesstmt> mei-contents > mei-p {
-  color: #636363;
-  content: '\a';
-  white-space: pre;
-  display: block;
+  display: none;
 }
 
 /* END OF SERIES STATEMENT */
@@ -153,10 +150,7 @@ mei-filedesc > mei-seriesstmt> mei-contents > mei-p {
 }
 
 mei-filedesc > mei-notesstmt> mei-annot {
-  color: #636363;
-  content: '\a';
-  white-space: pre;
-  display: block;
+  display: none;
 }
 
 /* END OF NOTES STATEMENT */
