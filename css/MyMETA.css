@@ -96,16 +96,12 @@ mei-filedesc > mei-editionstmt> mei-edition > mei-date {
 }
 
 mei-filedesc > mei-editionstmt> mei-edition > mei-respstmt > mei-resp {
-  color: #4f4f54;
+  color: #c42b2b;
   font-weight: bold;
-  white-space: pre;
-  display: block;
 }
 
 mei-filedesc > mei-editionstmt> mei-edition > mei-respstmt > mei-name {
   color: #4f4f54;
-  white-space: pre;
-  display: block;
 }
 
 
@@ -151,6 +147,10 @@ mei-filedesc > mei-seriesstmt> mei-contents > mei-p {
 /* END OF SERIES STATEMENT */
 
 /* START OF NOTES STATEMENT */
+
+#pers12345 {
+  margin-top: 2em;
+}
 
 mei-filedesc > mei-notesstmt> mei-annot {
   color: #636363;
