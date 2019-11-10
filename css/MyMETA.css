@@ -17,8 +17,8 @@ mei-filedesc > mei-titlestmt > mei-title {
 }
 
 
-mei-filedesc > mei-titlestmt> mei-composer:: before {
-  content:'\a' "Composer: ";
+mei-filedesc > mei-titlestmt> mei-composer:before {
+  content:'\a'"Composer: ";
   font-weight: bold;
   color: #001482;
   white-space: pre;
@@ -31,8 +31,8 @@ mei-filedesc > mei-titlestmt> mei-composer {
   display: block;
 }
 
-mei-filedesc > mei-titlestmt> mei-date:: before {
-  content:'\a' "Year of Composition: ";
+mei-filedesc > mei-titlestmt> mei-date:before {
+  content:'\a'"Year of Composition: ";
   font-weight: bold;
   color: #001482;
   white-space: pre;
@@ -45,8 +45,8 @@ mei-filedesc > mei-titlestmt> mei-date {
   display: block;
 }
 
-mei-filedesc > mei-titlestmt> mei-arranger:: before {
-  content:'\a' "Arranged by: ";
+mei-filedesc > mei-titlestmt> mei-arranger:before {
+  content:'\a'"Arranged by: ";
   font-weight: bold;
   color: #001482;
   white-space: pre;
@@ -68,7 +68,7 @@ mei-filedesc > mei-titlestmt> mei-arranger {
 }
 
 mei-filedesc > mei-editionstmt> mei-edition:before {
-  color: #a31f4b;
+  color: #001482;
   font-weight: bold;
   content: '\a'"Draft: ";
   white-space: pre;
