@@ -118,6 +118,12 @@ mei-filedesc > mei-editionstmt> mei-respstmt > mei-name {
   margin-top: 2em;
 }
 
+mei-filedesc > mei-seriesstmt> mei-title:before {
+  content: '\a';
+  white-space: pre;
+  display: block;
+}
+
 mei-filedesc > mei-seriesstmt> mei-title {
   color: #636363;
   font-weight: bold;
