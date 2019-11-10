@@ -81,10 +81,16 @@ mei-filedesc > mei-editionstmt> mei-edition {
   display: block;
 }
 
-mei-filedesc > mei-editionstmt> mei-date:before {
+mei-filedesc > mei-editionstmt> mei-edition > mei-date:before {
   color: #c42b2b;
   font-weight: bold;
   content: '\a'"Draft Date: ";
+  white-space: pre;
+  display: block;
+}
+
+mei-filedesc > mei-editionstmt> mei-edition > mei-date {
+  color: #4f4f54;
   white-space: pre;
   display: block;
 }
