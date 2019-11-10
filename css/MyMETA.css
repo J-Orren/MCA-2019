@@ -81,7 +81,7 @@ mei-filedesc > mei-editionstmt> mei-edition {
   display: block;
 }
 
-mei-filedesc > mei-editionstmt> mei-edition > mei-date:before {
+mei-filedesc > mei-editionstmt> mei-date:before {
   color: #c42b2b;
   font-weight: bold;
   content: '\a'"Draft Date: ";
@@ -89,18 +89,18 @@ mei-filedesc > mei-editionstmt> mei-edition > mei-date:before {
   display: block;
 }
 
-mei-filedesc > mei-editionstmt> mei-edition > mei-date {
+mei-filedesc > mei-editionstmt> mei-date {
   color: #4f4f54;
   white-space: pre;
   display: block;
 }
 
-mei-filedesc > mei-editionstmt> mei-edition > mei-respstmt > mei-resp {
+mei-filedesc > mei-editionstmt> mei-respstmt > mei-resp {
   color: #c42b2b;
   font-weight: bold;
 }
 
-mei-filedesc > mei-editionstmt> mei-edition > mei-respstmt > mei-name {
+mei-filedesc > mei-editionstmt> mei-respstmt > mei-name {
   color: #4f4f54;
 }
 
