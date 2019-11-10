@@ -89,6 +89,20 @@ mei-filedesc > mei-editionstmt> mei-date:before {
   display: block;
 }
 
+mei-filedesc > mei-editionstmt> mei-edition > mei-respstmt > mei-resp {
+  color: #4f4f54;
+  font-weight: bold;
+  white-space: pre;
+  display: block;
+}
+
+mei-filedesc > mei-editionstmt> mei-edition > mei-respstmt > mei-name {
+  color: #4f4f54;
+  white-space: pre;
+  display: block;
+}
+
+
 /* END OF EDITION STATEMENT */
 
 /* START OF SERIES STATEMENT */
