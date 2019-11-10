@@ -112,6 +112,28 @@ mei-filedesc > mei-editionstmt> mei-respstmt > mei-name {
 
 /* END OF EDITION STATEMENT */
 
+/* START OF NOTES STATEMENT */
+
+#pers12345 {
+  margin-top: 2em;
+}
+
+mei-filedesc > mei-notesstmt > mei-annot:before {
+  color: #69db6b;
+  font-weight: bold;
+  content: '\a'"Game Genre: ";
+  white-space: pre;
+  display: block;
+}
+
+mei-filedesc > mei-notesstmt > mei-annot {
+  color: #4f4f54;
+  white-space: pre;
+  display: block;
+}
+
+/* END OF NOTES STATEMENT */
+
 /* START OF SERIES STATEMENT */
 
 #pers12345 {
@@ -154,17 +176,6 @@ mei-filedesc > mei-seriesstmt> mei-contents > mei-p {
 
 /* END OF SERIES STATEMENT */
 
-/* START OF NOTES STATEMENT */
-
-#pers12345 {
-  margin-top: 2em;
-}
-
-mei-filedesc > mei-notesstmt> mei-annot {
-  display: none;
-}
-
-/* END OF NOTES STATEMENT */
 
 
 /* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
