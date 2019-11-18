@@ -146,6 +146,12 @@ mei-filedesc > mei-notesstmt > mei-annot {
   display: block;
 }
 
+mei-filedesc > mei-notesstmt > mei-annot:after {
+  content: '\a';
+  white-space: pre;
+  display: block;
+}
+
 /* END OF NOTES STATEMENT */
 
 /* START OF SERIES STATEMENT */
