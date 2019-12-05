@@ -1,9 +1,5 @@
 # MCA
 
-The theme of my dataset is Video Game Score Composition
+Go to this address to find my portfolio:
 
-As video games play a larger and larger role in society and our pop culture, I think that this sector of musical composition deserves more and more recognition, especially as video games offer the users a much more interactive and immersive experience than almost any other form of media.
-
-With this in mind, video game composers are faced with the daunting task of not only creating memorable music like those found in film scores, but music that produces a powerful response that adds and magnifies that visceral experience for the user, music which brings the user deeper into the video game world.
-
-Original soundtracks (OST's) of video games can be purchased in all types of formats nowadays, including vinyl. Scorebooks of video game music are found online and in stores.
+https://j-orren.github.io/MCA-2019/portfolio/week_1.html
